@@ -18,31 +18,54 @@ img {
 
 main {
   display: flex;
+  flex: 1;
+  gap: 1ch;
+  border: 2px solid green;
+}
+
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-container {
+  display: flex;
+  border: 2px solid black;
+}
+
+p {
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1ch;
+  background: #95b2b8;
+}
+
+header p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 2ch;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 5ch;
+  font-weight: bold;
 }
 
 footer {
   text-align: center;
   padding: 2ch;
   background: lightblue;
-}
-
-footer p {
-  font-size: 10px;
-  padding: 5px;
-}
-
-#A {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-#B {
-  display: flex;
-  flex-direction: column;
-}
-
-#C {
-  display: flex;
-  flex-direction: column;
 }
