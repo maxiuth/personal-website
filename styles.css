@@ -2,3 +2,29 @@ body {
   background-image: url("./images/background.jpeg");
   background-size: 100vw 100vh;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+#A {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#B {
+  display: flex;
+  flex-direction: column;
+}
+
+#C {
+  display: flex;
+  flex-direction: column;
+}
