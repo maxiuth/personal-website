@@ -1,0 +1,40 @@
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 5ch;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3ch;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1ch;
+}
+
+.content-container p {
+  margin: 2ch 7ch;
+  text-align: justify;
+  font-size: 2ch;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.oldenburg-regular {
+  font-family: "Oldenburg", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
