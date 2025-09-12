@@ -45,6 +45,10 @@ nav a {
 }
 
 footer {
+  /* display: flex;
+  justify-content: space-between; */
+  /* align-items: center; */
+  padding: 2ch;
   text-align: center;
   background: lightblue;
 }
