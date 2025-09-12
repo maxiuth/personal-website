@@ -1,18 +1,57 @@
 main {
   border: maroon solid 2px;
   display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3ch;
+  margin-bottom: 3px;
 }
 
 img {
   width: 400px;
   height: 300px;
+  border-radius: 70%;
 }
 
-.cooking,
-.gaming {
-  display: flex;
-  flex-direction: column;
+hr {
+  color: black;
+  size: 2px;
+}
+
+.cooking {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
   align-items: center;
-  padding: 1ch;
-  margin: 1ch auto;
+  gap: 2ch;
+  padding: 2%;
+  margin: 5% auto;
+}
+
+.cooking-content {
+  width: 80%;
+  overflow-wrap: wrap;
+}
+
+.gaming {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  gap: 2ch;
+  padding: 2%;
+  margin: 5% auto;
+}
+
+.gaming-content {
+  grid-column: -1 / -2;
+  width: 80%;
+  overflow-wrap: wrap;
+}
+
+.gaming img {
+  grid-column: 1 / 2;
 }
