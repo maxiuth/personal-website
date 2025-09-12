@@ -1,5 +1,4 @@
 main {
-  border: maroon solid 2px;
   display: flex;
   flex-direction: column;
 }
@@ -10,15 +9,23 @@ h1 {
   margin-bottom: 3px;
 }
 
+h2 {
+  text-align: center;
+  margin-top: 1ch;
+  margin-bottom: 1ch;
+}
+
 img {
   width: 400px;
   height: 300px;
   border-radius: 70%;
+  text-align: center;
 }
 
 hr {
-  color: black;
-  size: 2px;
+  background-color: black;
+  height: 5px;
+  margin: auto 3%;
 }
 
 .cooking {
@@ -28,30 +35,23 @@ hr {
   align-items: center;
   gap: 2ch;
   padding: 2%;
-  margin: 5% auto;
+  margin: 2% 5%;
 }
 
 .cooking-content {
   width: 80%;
-  overflow-wrap: wrap;
 }
 
 .gaming {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
   justify-items: center;
   align-items: center;
   gap: 2ch;
   padding: 2%;
-  margin: 5% auto;
+  margin: 2% 5%;
 }
 
 .gaming-content {
-  grid-column: -1 / -2;
   width: 80%;
-  overflow-wrap: wrap;
-}
-
-.gaming img {
-  grid-column: 1 / 2;
 }
